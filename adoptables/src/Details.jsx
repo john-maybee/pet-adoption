@@ -32,6 +32,6 @@ const Details = () => {
             </div>
         </div>
     );
-};
+}; // end of Details component function that takes in id and returns a div with a h1 of the pet's name, a h2 of the pet's animal, breed, city, and state, a button to adopt the pet, and a p of the pet's description if there is no error and the results are not loading
 
 export default Details;

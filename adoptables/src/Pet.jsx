@@ -29,8 +29,7 @@ const Pet = ({name, animal, breed, images, location, id}) => {
                 <h2>{`${animal} - ${breed} - ${location}`}</h2>
             </div>
         </Link>
-
     );
-}; // end of Pet component function
+}; // end of Pet component function that takes in name, animal, breed, images, location, and id and returns a Link component with a div with a img tag and a div with a h1 and h2
 
-  export default Pet;
+export default Pet;

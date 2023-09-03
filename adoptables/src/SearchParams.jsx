@@ -21,7 +21,7 @@ const SearchParams = () => {
         const json = await res.json();
         
         setPets(json.pets);
-    }
+    } // end of requestPets function that fetches the pets from the API and sets the pets state to the json.pets array of pets from the API response
 
     return (
         <div className="search-params">
@@ -76,6 +76,6 @@ const SearchParams = () => {
                 <Results pets={pets} />
         </div>
     );
-};
+}; // end of SearchParams component function where the form is located and the state is managed for the form inputs
 
 export default SearchParams;

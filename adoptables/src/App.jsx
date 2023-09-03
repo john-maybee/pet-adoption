@@ -11,7 +11,7 @@ const queryClient = new QueryClient({
       cacheTime: Infinity,
     },
   },
-});
+}); // end of queryClient object that sets the defaultOptions for the queries to have a staleTime and cacheTime of Infinity so that the data is never stale and never cached and always fetched from the API when the component is mounted
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
       </QueryClientProvider>
     </BrowserRouter>
   );
-};
+}; // end of App component function that returns a BrowserRouter component with a header with a Link to the home page and a Routes component with a Route to the Details component and a Route to the SearchParams component
 
 
 const container = document.getElementById("root");

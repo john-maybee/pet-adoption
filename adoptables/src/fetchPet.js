@@ -8,6 +8,6 @@ const fetchPet = async ({ queryKey }) => {
     }
 
     return apiRes.json();
-};
+}; // fetchPet end where it is exported to useFetchPet.js file to be used in the PetDetails.js file to fetch the pet details
 
 export default fetchPet;
