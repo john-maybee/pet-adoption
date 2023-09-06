@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
+import ErrorBoundary from "./ErrorBoundary";
 import Carousel from "./Carousel";
 import fetchPet from "./fetchPet";
 
@@ -36,4 +37,12 @@ const Details = () => {
     );
 }; // end of Details component function that takes in id and returns a div with a h1 of the pet's name, a h2 of the pet's animal, breed, city, and state, a button to adopt the pet, and a p of the pet's description if there is no error and the results are not loading
 
-export default Details;
+function DetailsErrorBoundary(props) {
+    return (
+        <ErrorBoundary>
+            <Details {...props} />
+        </ErrorBoundary>
+    );
+}
+
+export default DetailsErrorBoundary;
