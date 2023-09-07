@@ -13,4 +13,4 @@ Adoptables. Reviewing updates to React.js through a pet adoption website. My hop
 <img src="img/modal.png" alt="Modal asking whether user wants to adopt the pet or not" width="500px"/>
 
 ### Home Page with selected pet
-<img src="petadopteddisplay.png" alt="Home Page with selected pet" width="500px"/>
+<img src="img/petadopteddisplay.png" alt="Home Page with selected pet" width="500px"/>
